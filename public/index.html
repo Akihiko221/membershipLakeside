@@ -7,20 +7,28 @@
     <link rel="stylesheet" href="/src/output.css" />
   </head>
   <body class="font-Figtree bg-gradient-to-b from-[#CCFBF1] to-[#5EEAD4]">
+    <!-- HEADER -->
     <header class="flex items-center justify-between px-4 py-2 text-white bg-transparent">
+      <!-- LOGO CAATIS-RA -->
       <div class="flex items-center">
-        <img src="/public/img/LogoCaatisWeb.png" alt="Logo Caatis" class="h-10 mr-4" />
+        <a href="index.html">
+          <img src="/public/img/LogoCaatisWeb.png" alt="Logo Caatis" class="h-10 mr-4" />
+        </a>
       </div>
     </header>
 
+    <!-- MAIN BODY -->
     <main class="px-4 py-8">
+      <!-- Welcome TEXT -->
       <section>
         <h1 class="font-bold text-[20px]">Hello! Selamat datang.</h1>
         <p class="pt-1 text-[14px]">Silahkan masukkan nomor handphone(HP) dan password kamu untuk masuk klaim vouchernya</p>
       </section>
 
+      <!-- FORM LOGIN -->
       <section>
-        <div class=" pt-6 text-[14px]">
+        <div class=" pt-4 text-[14px]">
+          <!-- NO HANDPHONE -->
           <h2 class="font-bold">Nomor Handphone</h2>
           <form class="max-w-sm mx-auto">
             <div class="my-2">
@@ -28,6 +36,7 @@
             </div>
           </form>
 
+          <!-- PASSWORD -->
           <h2 class="font-bold">Password</h2>
           <form class="max-w-sm mx-auto">
             <div class="my-0">
@@ -35,20 +44,26 @@
             </div>
           </form>
 
+          <!-- Button Forgot Password -->
           <div class="flex justify-end">
             <a href="#" class="text-sm text-blue-500">Forgot Password</a>
           </div>
         </div>
 
+        <!-- Button CTA -->
         <div class="font-bold pt-4 text-[14px]">
-          <button class="bg-white mb-[10px] w-full p-[6px] text-sm text-Primary border-2 rounded-lg border-Primary"><a href="#">Register</a></button>
+          <!-- Input No Handphone -->
+          <button class="bg-white mb-[10px] w-full p-[6px] text-sm text-Primary border-2 rounded-lg border-Primary"><a href="/public/registerPage.html">Register</a></button>
+          
+          <!-- Input Password -->
           <button class="bg-Primary w-full p-[6px] text-sm text-white border-2 border-Primary rounded-lg"><a href="#">Login</a></button>
         </div>
       </section>
 
+      <!-- FOOTER -->
       <section class="text-center pt-[50px] pb-20">
-        <h1 class="text-[20px] font-bold">COLLABORATION OF:</h1>
-        <img src="/public/img/Collaboration 1.png" alt="" class="h-[120px] mx-auto">
+        <h1 class="text-[20px] font-bold pb-[10px]">COLLABORATION OF:</h1>
+        <img src="/public/img/Collaboration 1.png" alt="Collaboration img" class="h-[120px] mx-auto">
       </section>
     </div>
     </main>
